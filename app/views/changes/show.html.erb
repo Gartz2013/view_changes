@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @change.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @change.description %>
+</p>
+
+<p>
+  <strong>Version:</strong>
+  <%= @change.version %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @change.size %>
+</p>
+
+<%= link_to 'Edit', edit_change_path(@change) %> |
+<%= link_to 'Back', changes_path %>
